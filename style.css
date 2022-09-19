@@ -11,13 +11,22 @@ body {
 
 /* navigation */
 nav {
+    display: flex;
+    align-items: center;
     padding: .5rem;
     background-color: #f76c6c;
     color: white;
 }
 
+@media screen (min-width: 361px){
+nav{ display:block;
+
+}
+}
+
 nav h1 {
     font-size: 2rem;
+    display: flex;
 }
 
 nav h1,
@@ -32,7 +41,7 @@ nav>ul {
     font-size: 1.25rem;
 }
 
-nav>ul>li {
+nav>ul>li{
     display: inline-block;
 }
 
