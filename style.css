@@ -19,14 +19,12 @@ nav {
     background-color: #f76c6c;
     color: white;
 }
-/* For computer screenn  */
+/* Responsive For computer screen  */
 @media screen and (min-width: 361PX){
     nav{
         display: block;
-    }
-    
+    } 
 }
-
 
 nav h1 {
     font-size: 2rem;
@@ -57,7 +55,9 @@ nav>ul>li>a {
 
 /* header */
 header {
-    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     min-height: 250px;
     background-image: url("https://picsum.photos/id/1074/1920/600");
     background-repeat: no-repeat;
@@ -67,10 +67,24 @@ header {
     padding: .5rem;
 }
 
+/* Responsive For computer screen  */
+@media screen and (min-width: 361PX){
+header {
+    display: block;
+    text-align: center;
+}
+}
+
+
+header h1 {
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 361PX){
 header h1 {
     font-size: 3rem;
 }
-
+}
 /* section */
 section {
     padding: .5rem;
